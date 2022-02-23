@@ -10,6 +10,20 @@
     "address": {
       "city": "Salt Lake City, UT"
     },
+    "socials": [
+      {
+        "name": "github",
+        "url": "https://github.com/RomneyDa",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/romneyda/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
     "resumedownload": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf",
     "resumelinks": [
       {
@@ -25,20 +39,6 @@
         "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
       }
     ],
-    "socials": [
-      {
-        "name": "github",
-        "url": "https://github.com/RomneyDa",
-        "className": "fa fa-github"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/romneyda/",
-        "className": "fa fa-linkedin"
-      }
-    ]
-  },
-  "resume": {
     "skillmessage": "Confidence/proficiency",
     "education": [
       {
@@ -134,10 +134,6 @@
         "level": "60%"
       },   
       {
-        "name": "React Native",
-        "level": "50%"
-      },
-      {
         "name": "Learning :)",
         "level": "100%"
       }
@@ -165,6 +161,12 @@
         "category": "React, Mobile-first, Netlify",
         "image": "foodcrew.png",
         "url": "https://jolly-ramanujan-5e1e4e.netlify.app/"
+      },
+      {
+        "title": "Github User Search",
+        "category": "React, Github API",
+        "image": "githubusersearch.png",
+        "url": "https://drgithubfinder.netlify.app/"
       }
     ]
   }

@@ -237,40 +237,41 @@ ul#nav li.current a { color: #F06000; }
    text-align: left;
 }
 
-/* Download column */
-#about .download {
-   flex-grow: 0;
-   min-width: 300px;
-   margin-right: 70px;
-}
-
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
-
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-   width: 100%;
-   text-align: left;
-   white-space: nowrap;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
+/* Download column */
+#resume .download {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+#resume a, #resume a:visited  { color: #fff; }
+#resume a:hover, #resume a:focus { color: #11ABB0; }
+
+#resume .download .button {
+   background: #444;
+   width: 70%;
+   max-width: 250px;
+   min-width: 250px;
+   text-align: left;
+   white-space: nowrap;
+   color: white;
+}
+#resume .download .button:hover {
+   background: rgb(64, 68, 67);
+   color: #11ABB0;
+}
+#resume .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 50px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -314,9 +315,11 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
 
 .bars {
 	width: 95%;

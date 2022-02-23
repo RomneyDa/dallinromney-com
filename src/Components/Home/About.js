@@ -13,18 +13,7 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumedownload = data.resumedownload;
-    // var resumeLinkButtons = data.resumelinks.map(function (resume) {
-    //   return (
-    //     <a key={resume.text} href={resume.link} className="button">
-    //       <i className="fa fa-download"></i>{resume.text}
-    //     </a>
-    //   );
-    // });
-    var resumeLinkButtons = 
-    <a href={resumedownload} className="button">
-      <i className="fa fa-download"></i>Download a résumé 
-    </a>
+    
   }
 
   return (
@@ -41,9 +30,7 @@ const About = ({ data }) => {
         <p>{bio}</p>
       </div>
 
-      <div className="download flex-col">
-          {resumeLinkButtons}
-      </div>
+      
       
       
     </section>

@@ -39,11 +39,25 @@ const Resume = ({ data }) => {
     // var resumelinks = data.resumelinks;
     // var resumedownload = data.resumedownload;
     var other_skills = data.other_skills;
+    var resumedownload = data.resumedownload;
+    // var resumeLinkButtons = data.resumelinks.map(function (resume) {
+    //   return (
+    //     <a key={resume.text} href={resume.link} className="button">
+    //       <i className="fa fa-download"></i>{resume.text}
+    //     </a>
+    //   );
+    // });
+    var resumeLinkButtons = 
+    <a href={resumedownload} target="_blank" rel="noopener noreferrer" className="button">
+      <i className="fa fa-download"></i>Download Résumé 
+    </a>
   }
 
   return (
     <section id="resume">
-      
+      <div className="download">
+          {resumeLinkButtons}
+      </div>
       <div className="row education">
         <div className="three columns header-col">
           <h1>
