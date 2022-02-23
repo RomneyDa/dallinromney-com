@@ -52,10 +52,8 @@
    #about .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
+      object-fit: cover;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -99,6 +97,10 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   header {
+      background-position: -150px;
+   }
+   
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -123,7 +125,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 0;
    }
 
 	#nav-wrap > a:before,
@@ -152,16 +154,16 @@
       float: right;     
 
       position: relative;
-      top: 12px;
+      top: 0px;
       right: 0;
    }
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
 	   display: block;
-      padding: 30px 20px 48px 20px;
+      padding: 20px 20px 20px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin: 0 0px;
       clear: both;
    }
 
@@ -216,12 +218,17 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
-   #about .download .button {
-      width: 100%;
-      text-align: center;
-      padding: 15px 20px;
+   #about .bio-col { 
+      min-width: 220px;
    }
-   #about .main-col { padding-right: 30px; }
+   #about .download {
+      min-width: 220px;
+ 
+   }
+   #about .download .button {
+      font-size: 15px;
+   }
+   
 
 
    /* Resume Section
@@ -236,7 +243,6 @@
    #resume h3, #resume .info { text-align: center; }
       
    .bars { width: 100%; }
-
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
@@ -314,7 +320,6 @@
       margin-left: 0;
    }
 
-
    /* footer
    ------------------------------------------------------------------------ */
   
@@ -323,7 +328,7 @@
    footer .copyright li { margin-right: 12px; }
 
    /* social links */
-   footer .social-links { font-size: 22px; }
+   footer .social-links { font-size: 30px; }
    footer .social-links li { margin-left: 18px; }
 
    /* Go To Top Button */
@@ -345,7 +350,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   /* #nav-wrap ul#nav { width: auto; float: none; } */
 
    /* header styles
    -------------------------------------------------------------------- */

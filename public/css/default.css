@@ -516,6 +516,9 @@ input[type="button"].full-width {
 	text-align: center;
 }
 
+
+
+
 /* Fix for odd Mozilla border & padding issues */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -584,6 +587,8 @@ input[type="radio"] {
 
 input[type="checkbox"] { display: inline; }
 
+
+
 /* ------------------------------------------------------------------ */
 /* d. Grid
 ---------------------------------------------------------------------
@@ -642,7 +647,7 @@ input[type="checkbox"] { display: inline; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }
 .row .eight       { width: 66.66667%; }
-.row .nine        { width: 75%; }
+.row .nine        { width: 75%;}
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
 .row .twelve      { width: 100%; }

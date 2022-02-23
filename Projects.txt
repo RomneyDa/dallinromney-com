@@ -1,0 +1,32 @@
+BLOCKCHAIN - need to add many new projects
+
+Web:
+focusonfoodstorage.com
+
+React: (this whole site is react)
+Wherecanipee
+anonymized popchew takehome
+Add some clones!
+
+React native?
+
+Robotics/Engineering:
+FIRST
+Senior design
+Mechatronics
+some matlab?
+ping pong ball launcher
+
+VBA:
+anonymized balloon evaluation tool?
+webapps connector and super data miner
+anonymized wall thickness logger?
+etc.
+
+C#
+Line status tracker
+webapps connector
+
+Python:
+tkinter clickable table class
+goodreads?

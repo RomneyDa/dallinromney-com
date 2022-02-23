@@ -1,122 +1,172 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Dallin Romney",
+    "first_name": "Dallin",
+    "occupation": "Manufacturing Engineer, Software Developer",
+    "description": "DESCRIPTION",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "bio": "Hi, I'm Dallin, welcome to my online portfolio. I enjoy creating, exploring, and connecting. Career experience is in manufacturing engineering and sales, but passion has shifted towards software development, especially web3. Offline you'll spot me with a book, a guitar, or a tennis racquet.",
+    "email": "dallinromney@gmail.com",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "city": "Salt Lake City, UT"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
-    "social": [
+    "resumedownload": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf",
+    "resumelinks": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
+        "text": "Software Resume",
+        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
       },
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
+        "text": "Sales Resume",
+        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
+      },
+      {
+        "text": "Engineering Resume",
+        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
+      }
+    ],
+    "socials": [
+      {
+        "name": "github",
+        "url": "https://github.com/RomneyDa",
+        "className": "fa fa-github"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/romneyda/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/PapaReact",
-        "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "Confidence/proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "University of Utah",
+        "degree": "BS, Mechanical Engineering",
+        "graduated": "May 2020",
+        "description": "Design & Manufacturing emphasis. 3.83 GPA."
+      },
+      {
+        "school": "College of Southern Idaho",
+        "degree": "AA, Liberal Arts",
+        "graduated": "August 2016",
+        "description": "Summa cum laude, 4.0 GPA"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Merit Medical Systems",
+        "title": "Manufacturing Engineer",
+        "years": "July 2020 - Present",
+        "description": "Oversee daily operations for medical device manufacturing lines. Execute and manage interdisciplinary projects involving design, equipment/fixture, location, software, regulatory, accounting, material sourcing, specification, process, documentation, and other changes to reduce waste/costs and improve/optimize throughput, efficiency, safety, quality, and customer experience."
+      },
+      {
+        "company": "Southwestern Advantage",
+        "title": "Sales Manager and Salesman",
+        "years": "March 2017 - August 2019",
+        "description": "Executed all ordering, inventory, sales, accounting, social media, scheduling, and delivery in  personal educational products sales business. 3,000+ hours of direct door-to-door sales experience. 13,000+ prospect calls and thousands of full sales cycles. Personal sales growth of $12,400 -> $34,600 -> $44,600. Attended 100+ hours of advanced sales and leadership training. Coached ethical selling techniques and motivated/led salespeople in the field. Immersive experience with a focus on success principles like goal setting, schedule, and attitude/emotional management. Relocated to Pennsylvania and Alabama for 3 summers."
+      },
+      {
+        "company": "University of Utah",
+        "title": "Researcher",
+        "years": "January 2018 - April 2019",
+        "description": "Designed, simulated, and optimized hardware solutions for nanoscale near-field radiative heat transfer research, primarily using SolidWorks. Awarded the Dee Foundation Scholar Designation for excellence in local and environmental research."
+      },
+      {
+        "company": "Self-employed",
+        "title": "Tutor",
+        "years": "Aug 2015 - Present",
+        "description": "Tutor students in a wide range of courses, from entry-level to upper-division college courses. Mostly mathematics and engineering courses, but also basic music, English, reading, etc."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "Direct Sales",
+        "level": "98%"
+      }, 
+      {
+        "name": "VBA (and MS Office)",
+        "level": "95%"
       },
       {
-        "name": "Python",
+        "name": "HTML/CSS",
+        "level": "90%"
+      },
+      {
+        "name": "SolidWorks",
+        "level": "90%"
+      },
+      {
+        "name": "3D Modeling/Prototyping",
+        "level": "90%"
+      },
+      {
+        "name": "MATLAB",
         "level": "85%"
+      },  
+      {
+        "name": "Eng Project Management",
+        "level": "82%"
+      }, 
+      {
+        "name": "Arduino C++",
+        "level": "80%"
+      },  
+      {
+        "name": "Sales Management",
+        "level": "78%"
+      }, 
+      {
+        "name": "Javascript",
+        "level": "75%"
       },
       {
-        "name": "Git",
+        "name": "C#",
         "level": "70%"
       },
       {
-        "name": "JavaScript",
-        "level": "99%"
+        "name": "ReactJS",
+        "level": "65%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "Python",
+        "level": "60%"
+      },   
+      {
+        "name": "React Native",
+        "level": "50%"
+      },
+      {
+        "name": "Learning :)",
+        "level": "100%"
       }
-    ]
+    ],
+
+
+    "other_skills": "Other skills I'm familiar with but would rate myself below 50% in include git, R, SQL, AWS, social media management, and React Native"
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "title": "Where Can I Pee?",
+        "category": "React JS",
+        "image": "wherecanipee.png",
+        "url": "https://www.wherecanipee.art"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "title": "Focus on Food Storage",
+        "category": "HTML/CSS",
+        "image": "focusonfoodstorage.png",
+        "url": "https://www.focusonfoodstorage.org"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
-      },
-      {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "title": "Foodcrew",
+        "category": "React, Mobile-first, Netlify",
+        "image": "foodcrew.png",
+        "url": "https://jolly-ramanujan-5e1e4e.netlify.app/"
       }
     ]
   }
+
 }

@@ -1,16 +1,24 @@
 {
-  "name": "resume_starter_pack",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "postcss-safe-parser": "^6.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
     "react-typewriter": "^0.4.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+
+    "react-share": "^4.4.0",
+    "react-paypal-button-v2": "^2.6.3",
+    "dot-crypto-donate-react": "^1.1.4",
+
+    "@material-ui/icons": "^4.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
