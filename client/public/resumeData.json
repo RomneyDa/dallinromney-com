@@ -90,10 +90,6 @@
         "level": "95%"
       },
       {
-        "name": "HTML/CSS",
-        "level": "90%"
-      },
-      {
         "name": "SolidWorks",
         "level": "90%"
       },
@@ -101,10 +97,6 @@
         "name": "3D Modeling/Prototyping",
         "level": "90%"
       },
-      {
-        "name": "MATLAB",
-        "level": "85%"
-      },  
       {
         "name": "Eng Project Management",
         "level": "82%"
@@ -114,9 +106,18 @@
         "level": "80%"
       },  
       {
+        "name": "HTML/CSS",
+        "level": "80%"
+      },
+      {
         "name": "Sales Management",
         "level": "78%"
       }, 
+      {
+        "name": "MATLAB",
+        "level": "78%"
+      },  
+      
       {
         "name": "Javascript",
         "level": "75%"
@@ -152,7 +153,7 @@
       },
       {
         "title": "Focus on Food Storage",
-        "category": "HTML/CSS",
+        "category": "HTML/CSS/JS, Stripe Payments",
         "image": "focusonfoodstorage.png",
         "url": "https://www.focusonfoodstorage.org"
       },
