@@ -7,7 +7,7 @@ const Portfolio = ({ data }) => {
       return (
         <div key={project.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={project.url} title={project.title} target={project.url.includes("https://") ? "_blank" : "_self"}>
+            <a rel="noreferrer" href={project.url} title={project.title} target={project.url.includes("https://") ? "_blank" : "_self"}>
               <img alt={project.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">

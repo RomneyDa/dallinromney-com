@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const BackFloat = () => {
   return (
     <Link to="/">
-      <a href="#" class="float">
+      <a href="www.google.com" class="float">
         <i className="fa fa-arrow-left"/>
       </a>
     </Link>

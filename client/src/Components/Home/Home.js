@@ -6,7 +6,7 @@ import About from "./About";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
-import BackFloat from '../BackFloat';
+// import BackFloat from '../BackFloat';
 
 const Home = () => {
 

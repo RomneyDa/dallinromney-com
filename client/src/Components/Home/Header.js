@@ -6,7 +6,7 @@ const Header = ({ data }) => {
   if (data) {
     var first_name = data.first_name;
     var occupation = data.occupation;
-    var description = data.description;
+    // var description = data.description;
     var city = data.address.city;
     var socialIcons = <Social socials={data.socials}/>
   }
