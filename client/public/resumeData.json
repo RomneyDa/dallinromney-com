@@ -5,7 +5,7 @@
     "occupation": "Manufacturing Engineer, Software Developer",
     "description": "DESCRIPTION",
     "image": "profilepic.jpg",
-    "bio": "Hi, I'm Dallin, welcome to my online portfolio. I enjoy creating, exploring, and connecting. Career experience is in manufacturing engineering and sales, but passion has shifted towards software development, especially web3. Offline you'll spot me with a book, a guitar, or a tennis racquet.",
+    "bio": "Hi, I'm Dallin, welcome to my online portfolio. I enjoy creating, exploring, and connecting. I do full-stack software engineering. Other career experience is in manufacturing engineering and sales. Offline you'll spot me with a book, a guitar, or a tennis racquet.",
     "email": "dallinromney@gmail.com",
     "address": {
       "city": "Salt Lake City, UT"
@@ -82,66 +82,73 @@
     ],
     "skills": [
       {
-        "name": "Direct Sales",
-        "level": "98%"
-      }, 
-      {
-        "name": "VBA (and MS Office)",
-        "level": "95%"
-      },
-      {
-        "name": "SolidWorks",
-        "level": "90%"
-      },
-      {
-        "name": "3D Modeling/Prototyping",
-        "level": "90%"
-      },
-      {
-        "name": "Eng Project Management",
-        "level": "82%"
-      }, 
-      {
-        "name": "Arduino C++",
-        "level": "80%"
-      },  
-      {
-        "name": "HTML/CSS",
-        "level": "80%"
-      },
-      {
-        "name": "Sales Management",
-        "level": "78%"
-      }, 
-      {
-        "name": "MATLAB",
-        "level": "78%"
-      },  
-      
-      {
-        "name": "Javascript",
+        "name": "javascript",
         "level": "75%"
       },
       {
-        "name": "C#",
+        "name": "c#",
         "level": "70%"
       },
       {
-        "name": "ReactJS",
+        "name": "react.js",
         "level": "65%"
       },
       {
-        "name": "Python",
-        "level": "60%"
-      },   
+        "name": "html/css",
+        "level": "80%"
+      },
       {
-        "name": "Learning :)",
+        "name": "python",
+        "level": "60%"
+      },
+      {
+        "name": "web3 front-end",
+        "level": "55%"
+      },
+      {
+        "name": "web3 smart contracts",
+        "level": "55%"
+      },
+      {
+        "name": "solidworks",
+        "level": "90%"
+      },
+      {
+        "name": "arduino c++",
+        "level": "80%"
+      },  
+      {
+        "name": "matlab",
+        "level": "78%"
+      },  
+      {
+        "name": "3d modeling/prototyping",
+        "level": "90%"
+      },
+      {
+        "name": "eng. project management",
+        "level": "82%"
+      }, 
+      {
+        "name": "vba (and ms office)",
+        "level": "95%"
+      },
+      {
+        "name": "sales management",
+        "level": "78%"
+      }, 
+      {
+        "name": "direct sales",
+        "level": "98%"
+      }, 
+      {
+        "name": "learning :)",
         "level": "100%"
       }
     ],
 
 
-    "other_skills": "Other skills I'm familiar with but would rate myself below 50% in include git, R, SQL, AWS, social media management, and React Native"
+    "other_skills": "Other skills I'm familiar with but would rate myself below 50% in include git, R, SQL, AWS, social media management, React Native"
   },
   "portfolio": {
     "projects": [
