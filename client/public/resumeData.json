@@ -32,7 +32,7 @@
     ]
   },
   "resume": {
-    "resumedownload": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Software+Engineer+Resume+2022-04-15.pdf",
+    "resumedownload": "s3://dallinromney.com/Dallin Romney Resume 2022-11-25.pdf",
     "resumelinks": [
       {
         "text": "Software Resume",
@@ -88,70 +88,66 @@
         "description": "Tutor students in a wide range of courses, from entry-level to upper-division college courses. Mostly mathematics and engineering courses, but also basic music, English, reading, etc."
       }
     ],
-    "skills": [
+    "tagCloud": [
       {
-        "name": "javascript",
-        "level": "75%"
+        "value": "React Native",
+        "count": 90
       },
       {
-        "name": "c#",
-        "level": "70%"
+        "value": "React",
+        "count": 70
       },
       {
-        "name": "react.js",
-        "level": "65%"
+        "value": "Python",
+        "count": 90
       },
       {
-        "name": "html/css",
-        "level": "80%"
+        "value": "AWS Lambda",
+        "count": 75
       },
       {
-        "name": "python",
-        "level": "60%"
+        "value": "Serverless",
+        "count": 50
       },
       {
-        "name": "web3 front-end",
-        "level": "55%"
+        "value": "API Integration",
+        "count": 65
       },
       {
-        "name": "web3 smart contracts",
-        "level": "55%"
+        "value": "Backend architecture",
+        "count": 60
       },
       {
-        "name": "solidworks",
-        "level": "90%"
+        "value": "3D Modeling",
+        "count": 30
       },
       {
-        "name": "arduino c++",
-        "level": "80%"
+        "value": "Analytics",
+        "count": 40
       },
       {
-        "name": "matlab",
-        "level": "78%"
+        "value": "Testing",
+        "count": 75
       },
       {
-        "name": "3d modeling/prototyping",
-        "level": "90%"
+        "value": "Animations",
+        "count": 40
       },
       {
-        "name": "eng. project management",
-        "level": "82%"
+        "value": "Notifications",
+        "count": 35
       },
       {
-        "name": "vba (and ms office)",
-        "level": "95%"
+        "value": "Data ingestion",
+        "count": 50
       },
       {
-        "name": "sales management",
-        "level": "78%"
+        "value": "SQL",
+        "count": 60
       },
       {
-        "name": "direct sales",
-        "level": "98%"
-      },
-      {
-        "name": "learning :)",
-        "level": "100%"
+        "value": "Design",
+        "count": 55
       }
     ],
 

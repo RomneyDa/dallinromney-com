@@ -1,4 +1,5 @@
 import React from 'react'
+import { TagCloud } from 'react-tagcloud'
 
 const Resume = ({ data }) => {
   if (data) {
@@ -40,6 +41,7 @@ const Resume = ({ data }) => {
     // var resumedownload = data.resumedownload;
     var other_skills = data.other_skills
     var resumedownload = data.resumedownload
+    var tagCloudData = data.tagCloud
     // var resumeLinkButtons = data.resumelinks.map(function (resume) {
     //   return (
     //     <a key={resume.text} href={resume.link} className="button">
@@ -62,28 +64,32 @@ const Resume = ({ data }) => {
   return (
     <section id="resume">
       <div className="download">{resumeLinkButtons}</div>
-      <div className="row education">
+
+      <div className="row skill">
         <div className="three columns header-col">
           <h1>
-            <span>Education</span>
+            <span>Skills</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
-          <div className="row item">
-            <div className="twelve columns">{education}</div>
-          </div>
+          {tagCloudData && (
+            <TagCloud
+              randomSeed={Math.random()}
+              minSize={25}
+              maxSize={50}
+              tags={tagCloudData}
+              // onClick={(tag) => alert(`'${tag.value}' was selected!`)}
+              shuffle
+              // renderer={(tag, size, color) => {
+              //   return (
+              //     <span key={tag.value} style={{ color, fontSize: size }}>
+              //       {tag.value}
+              //     </span>
+              //   )
+              // }}
+            />
+          )}
         </div>
-      </div>
-
-      <div className="row work">
-        <div className="three columns header-col">
-          <h1>
-            <span>Work</span>
-          </h1>
-        </div>
-
-        <div className="nine columns main-col">{work}</div>
       </div>
 
       {/* <div className="row skill">
@@ -102,6 +108,29 @@ const Resume = ({ data }) => {
           <p>{other_skills}</p>
         </div>
       </div> */}
+
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1>
+            <span>Work</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">{work}</div>
+      </div>
+      <div className="row education">
+        <div className="three columns header-col">
+          <h1>
+            <span>Education</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">
+          <div className="row item">
+            <div className="twelve columns">{education}</div>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
