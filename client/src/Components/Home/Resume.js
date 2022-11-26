@@ -3,7 +3,6 @@ import { TagCloud } from 'react-tagcloud'
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>

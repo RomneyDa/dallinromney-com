@@ -4,9 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import About from './About'
 import Resume from './Resume'
-import Contact from './Contact'
 import Portfolio from './Portfolio'
-// import BackFloat from '../BackFloat';
 
 const Home = () => {
   const [resumeData, setResumeData] = useState({})
@@ -25,7 +23,6 @@ const Home = () => {
       <About data={resumeData.main} />
       <Portfolio data={resumeData.portfolio} />
       <Resume data={resumeData.resume} />
-      {/* <Contact data={resumeData.main} /> */}
       <Footer data={resumeData.main} />
     </Fragment>
   )
