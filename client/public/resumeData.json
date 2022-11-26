@@ -2,13 +2,16 @@
   "main": {
     "name": "Dallin Romney",
     "first_name": "Dallin",
-    "occupation": "Manufacturing Engineer, Software Developer",
+    "occupation": "Full-stack Software Developer",
     "description": "DESCRIPTION",
     "image": "profilepic.jpg",
-    "bio": "Hi, I'm Dallin, welcome to my online portfolio. I enjoy creating, exploring, and connecting. I do full-stack software engineering. Other career experience is in manufacturing engineering and sales. Offline you'll spot me with a book, a guitar, or a tennis racquet.",
+    "bioTitle": "Hello!",
+    "bio": [
+      "I get joy from creating, exploring, learning, and connecting. I'm a full-stack software engineer. Offline you'll spot me with a 📚, 🎸, or 🎾."
+    ],
     "email": "dallinromney@gmail.com",
     "address": {
-      "city": "Salt Lake City, UT"
+      "city": "Based out of Earth"
     },
     "socials": [
       {
@@ -20,6 +23,11 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/romneyda/",
         "className": "fa fa-linkedin"
+      },
+      {
+        "name": "email",
+        "url": "mailto:dallinromney@gmail.com",
+        "className": "fa fa-envelope"
       }
     ]
   },
@@ -58,8 +66,8 @@
       {
         "company": "Merit Medical Systems",
         "title": "Manufacturing Engineer",
-        "years": "July 2020 - Present",
-        "description": "Oversee daily operations for medical device manufacturing lines. Execute and manage interdisciplinary projects involving design, equipment/fixture, location, software, regulatory, accounting, material sourcing, specification, process, documentation, and other changes to reduce waste/costs and improve/optimize throughput, efficiency, safety, quality, and customer experience."
+        "years": "July 2020 - May 2022",
+        "description": "Execute and manage interdisciplinary projects involving design, equipment/fixture, location, software, regulatory, accounting, material sourcing, specification, process, documentation, and other changes to reduce waste/costs and improve/optimize throughput, efficiency, safety, quality, and customer experience. Oversaw daily operations for medical device manufacturing lines."
       },
       {
         "company": "Southwestern Advantage",
@@ -116,11 +124,11 @@
       {
         "name": "arduino c++",
         "level": "80%"
-      },  
+      },
       {
         "name": "matlab",
         "level": "78%"
-      },  
+      },
       {
         "name": "3d modeling/prototyping",
         "level": "90%"
@@ -128,7 +136,7 @@
       {
         "name": "eng. project management",
         "level": "82%"
-      }, 
+      },
       {
         "name": "vba (and ms office)",
         "level": "95%"
@@ -136,47 +144,33 @@
       {
         "name": "sales management",
         "level": "78%"
-      }, 
+      },
       {
         "name": "direct sales",
         "level": "98%"
-      }, 
+      },
       {
         "name": "learning :)",
         "level": "100%"
       }
     ],
 
-
-    "other_skills": "Other skills I'm familiar with but would rate myself below 50% in include git, R, SQL, AWS, social media management, React Native"
+    "other_skills": ""
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Where Can I Pee?",
-        "category": "React JS",
-        "image": "wherecanipee.png",
-        "url": "https://www.wherecanipee.art"
-      },
-      {
-        "title": "Focus on Food Storage",
-        "category": "HTML/CSS/JS, Stripe Payments",
-        "image": "focusonfoodstorage.png",
-        "url": "https://www.focusonfoodstorage.org"
+        "title": "Popchew",
+        "category": "React Native",
+        "image": "popchew.png",
+        "url": "order.popchew.com"
       },
       {
         "title": "Foodcrew",
         "category": "React, Mobile-first, Netlify",
         "image": "foodcrew.png",
         "url": "https://jolly-ramanujan-5e1e4e.netlify.app/"
-      },
-      {
-        "title": "Github User Search",
-        "category": "React, Github API",
-        "image": "githubusersearch.png",
-        "url": "https://drgithubfinder.netlify.app/"
       }
     ]
   }
-
 }

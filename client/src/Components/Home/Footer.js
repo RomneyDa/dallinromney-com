@@ -1,18 +1,15 @@
-import React from "react";
-import Social from "./Social";
+import React from 'react'
+import Social from './Social'
 
 const Footer = ({ data }) => {
-
-  if(data) {
-    var socialIcons = <Social gray={true} socials={data.socials}/>
+  if (data) {
+    var socialIcons = <Social gray={true} socials={data.socials} />
   }
 
   return (
-    <footer>
+    <footer id="contact">
       <div className="row">
-        <div className="twelve columns">
-          {socialIcons}
-        </div>
+        <div className="twelve columns">{socialIcons}</div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
             <i className="icon-up-open"></i>
@@ -20,7 +17,7 @@ const Footer = ({ data }) => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
