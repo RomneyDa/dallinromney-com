@@ -28,27 +28,10 @@ const Resume = ({ data }) => {
         </div>
       )
     })
-    // var skills = data.skills.map(function (skills) {
-    //   var className = 'bar-expand ' + skills.name.toLowerCase()
-    //   return (
-    //     <li key={skills.name}>
-    //       <span style={{ width: skills.level }} className={className}></span>
-    //       <em>{skills.name}</em>
-    //     </li>
-    //   )
-    // })
-    // var resumelinks = data.resumelinks;
-    // var resumedownload = data.resumedownload;
-    var other_skills = data.other_skills
+
     var resumedownload = data.resumedownload
     var tagCloudData = data.tagCloud
-    // var resumeLinkButtons = data.resumelinks.map(function (resume) {
-    //   return (
-    //     <a key={resume.text} href={resume.link} className="button">
-    //       <i className="fa fa-download"></i>{resume.text}
-    //     </a>
-    //   );
-    // });
+
     var resumeLinkButtons = (
       <a
         href={resumedownload}

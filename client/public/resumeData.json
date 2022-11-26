@@ -32,21 +32,7 @@
     ]
   },
   "resume": {
-    "resumedownload": "s3://dallinromney.com/Dallin Romney Resume 2022-11-25.pdf",
-    "resumelinks": [
-      {
-        "text": "Software Resume",
-        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
-      },
-      {
-        "text": "Sales Resume",
-        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
-      },
-      {
-        "text": "Engineering Resume",
-        "link": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin+Romney+Sales+Resume+2022-02-19.pdf"
-      }
-    ],
+    "resumedownload": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin%20Romney%20Resume%202022-11-26.pdf",
     "skillmessage": "Confidence/proficiency",
     "education": [
       {
@@ -63,6 +49,12 @@
       }
     ],
     "work": [
+      {
+        "company": "Popchew",
+        "title": "Software Engineer (contracting)",
+        "years": "May 2022 - Present",
+        "description": "Full-stack builds in a fast-paced startup environment. Frontend React Native and React, backend Python with serverless AWS lambda. External/internal API/SDK builds and integrations, SQL and data management/ingestion/pipelines, analytics, notifications, animations, backend architecture, etc."
+      },
       {
         "company": "Merit Medical Systems",
         "title": "Manufacturing Engineer",
@@ -159,7 +151,7 @@
         "title": "Popchew",
         "category": "React Native",
         "image": "popchew.png",
-        "url": "order.popchew.com"
+        "url": "https://order.popchew.com"
       },
       {
         "title": "Foodcrew",
