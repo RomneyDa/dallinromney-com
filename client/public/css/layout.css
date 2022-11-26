@@ -219,6 +219,7 @@ ul#nav li.current a {
 
 #about .flex-col {
   margin: 0px 100px;
+  max-width: 600px;
   display: block;
   flex: 1;
 }
