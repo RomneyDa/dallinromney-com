@@ -95,7 +95,7 @@
       },
       {
         "value": "AWS Lambda",
-        "count": 75
+        "count": 60
       },
       {
         "value": "Serverless",
@@ -140,6 +140,18 @@
       {
         "value": "Design",
         "count": 55
+      },
+      {
+        "value": "Solidworks",
+        "count": 85
+      },
+      {
+        "value": "3D CAD/Modeling",
+        "count": 75
+      },
+      {
+        "value": "Direct Sales",
+        "count": 80
       }
     ],
 
