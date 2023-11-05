@@ -32,7 +32,7 @@
     ]
   },
   "resume": {
-    "resumedownload": "https://s3.us-west-1.amazonaws.com/dallinromney.com/Dallin%20Romney%20Resume%202022-11-26.pdf",
+    "resumedownload": "https://drive.google.com/file/d/1swYsWIPhBsKB-xXjZzHe2EKeaykDfkJd/view?usp=sharing",
     "skillmessage": "Confidence/proficiency",
     "education": [
       {
@@ -154,22 +154,33 @@
         "count": 80
       }
     ],
-
     "other_skills": ""
   },
   "portfolio": {
     "projects": [
       {
+        "title": "MapThis",
+        "category": "AI, Maps, Typescript, Next.js",
+        "image": "mapthis.png",
+        "url": "https://map-this-ai.vercel.app/"
+      },
+      {
+        "title": "gear-gen",
+        "category": "Typescript, frontend, npm package",
+        "image": "gears.png",
+        "url": "https://github.com/RomneyDa/react-gear-gen"
+      },
+      {
+        "title": "rpgGPT",
+        "category": "Next.js, AI, Game, Mobile-first",
+        "image": "rpggpt.png",
+        "url": "rpg-gpt.com"
+      },
+      {
         "title": "Popchew",
         "category": "React Native",
         "image": "popchew.png",
-        "url": "https://order.popchew.com"
-      },
-      {
-        "title": "Foodcrew",
-        "category": "React, Mobile-first, Netlify",
-        "image": "foodcrew.png",
-        "url": "https://jolly-ramanujan-5e1e4e.netlify.app/"
+        "url": "https://popchew.com"
       }
     ]
   }
