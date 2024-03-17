@@ -38,7 +38,7 @@ const Resume = ({ data }) => {
         rel="noopener noreferrer"
         className="button"
       >
-        <i className="fa fa-download"></i>Résumé
+        <i className="fa fa-download"></i>Resume
       </a>
     )
   }
@@ -62,13 +62,13 @@ const Resume = ({ data }) => {
               tags={tagCloudData}
               // onClick={(tag) => alert(`'${tag.value}' was selected!`)}
               shuffle
-              // renderer={(tag, size, color) => {
-              //   return (
-              //     <span key={tag.value} style={{ color, fontSize: size }}>
-              //       {tag.value}
-              //     </span>
-              //   )
-              // }}
+            // renderer={(tag, size, color) => {
+            //   return (
+            //     <span key={tag.value} style={{ color, fontSize: size }}>
+            //       {tag.value}
+            //     </span>
+            //   )
+            // }}
             />
           )}
         </div>
